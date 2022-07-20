@@ -16,6 +16,10 @@ body {
     margin: auto;
 }
 
+.view-box {
+    display: none;
+}
+
 /* common style end */
 /* header starts */
 .hero-main {
@@ -168,6 +172,7 @@ body {
     background-color: orangered;
 }
 
+
 .transfer-section {
     width: 74%;
     margin-left: 2%;
@@ -218,6 +223,54 @@ body {
 }
 
 
+/* flag-box */
+.flag-box .flag-item img {
+    width: 93px;
+
+}
+
+.flag-item {
+    width: 93px;
+    height: 54px;
+}
+
+.flag-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Vs {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Germany {
+    text-align: center;
+}
+
+.April {
+    text-align: center;
+}
+
+#transfer-height {
+    height: 242px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+#Vs h2 {
+    text-align: center;
+    margin: 0;
+
+}
+
+
+/* flag-box */
+
+
 
 /* main ends */
 
@@ -266,8 +319,194 @@ body {
 
 /* footer ends */
 /* media  */
+/* mobile */
+
+
+@media only screen and (max-width:668px) {
+
+
+    .hero-main {
+        height: auto;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        width: 180px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 45px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+
+    }
+
+    .hero-text .button {
+        margin: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero-main {}
+
+    .main-section {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .blog-section {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        background: none;
+        /* padding: 0 20px; */
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .blog-content {
+        border: 1px solid gainsboro;
+    }
+
+    .transfer-section {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
+    footer {
+        overflow: hidden;
+    }
+
+    .footer-menu {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+
+
+}
+
+/* mobile */
+
+/* tablet */
+@media only screen and (min-width:668px) and (max-width:1024px) {
+    .hero-main {
+        padding: 50px;
+        height: auto;
+        overflow: hidden;
+
+
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        width: 260px;
+        height: 46px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+
+    }
+
+    .main-section {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        padding-top: 20;
+    }
+
+    .blog-content {
+        border: 1px solid gainsboro;
+    }
+
+    .blog-section {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        background: none;
+        /* padding: 0 20px; */
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .transfer-section {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    #box-none {
+        display: none;
+    }
+
+    #view-button {
+        color: #161616;
+    }
+
+    .view-box {
+        padding: 20px 0;
+        padding-top: 40px;
+        margin: auto;
+    }
+
+    .footer-menu {
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .view-box {
+        display: block;
+    }
+
+
+
+
+}
+
+/* tablet */
+
+
 /* 1224 */
-@media (max-width:1224px) {
+@media only screen and (min-width:1024px) and (max-width:1224px) {
+    /* .hero-main {
+        height: 650px;
+    } */
+
     .hero-text h1 {
         font-size: 58px;
     }
