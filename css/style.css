@@ -328,7 +328,10 @@ body {
     .hero-main {
         height: auto;
         flex-direction: column;
-        padding-top: 30px;
+        padding: 40px;
+        padding-bottom: 0;
+
+
     }
 
     .hero-text {
@@ -366,7 +369,11 @@ body {
         margin: 0;
     }
 
-    .hero-main {}
+    .hero-image img {
+        width: 100%;
+    }
+
+
 
     .main-section {
         width: 100%;
@@ -417,7 +424,7 @@ body {
 /* tablet */
 @media only screen and (min-width:668px) and (max-width:1024px) {
     .hero-main {
-        padding: 50px;
+        padding-top: 50px;
         height: auto;
         overflow: hidden;
 
@@ -503,9 +510,7 @@ body {
 
 /* 1224 */
 @media only screen and (min-width:1024px) and (max-width:1224px) {
-    /* .hero-main {
-        height: 650px;
-    } */
+
 
     .hero-text h1 {
         font-size: 58px;
